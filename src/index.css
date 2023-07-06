@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dropdown {
+  position: absolute;
+  margin-left:30vw;
+  background-color: aqua;
+  width: 40%;
+  min-height: 40%;
+  height: auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inside {
+  margin-left: 20%;
+  position: relative;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.dropdown-button {
+  margin-left: 15%;
+  height: 40px;
+  width: 15vw;
+}
+.list {
+  margin-top: 0;
+  padding: 0;
+  margin-left: 32%;
+  height: auto;
+  width: 15vw;
+  background-color: azure;
+  align-items: center;
+  justify-content: center;
+}
